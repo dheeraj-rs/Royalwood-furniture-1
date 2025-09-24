@@ -1,0 +1,25 @@
+import Header from '@/components/layout/Header';
+import Hero from '@/components/sections/Hero';
+import FeaturedProducts from '@/components/sections/FeaturedProducts';
+import Categories from '@/components/sections/Categories';
+import About from '@/components/sections/About';
+import Testimonials from '@/components/sections/Testimonials';
+import Newsletter from '@/components/sections/Newsletter';
+import Footer from '@/components/layout/Footer';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <Hero />
+        <FeaturedProducts />
+        <Categories />
+        <About />
+        <Testimonials />
+        <Newsletter />
+      </main>
+      <Footer />
+    </div>
+  );
+}
